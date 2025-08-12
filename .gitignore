@@ -7,3 +7,11 @@ cods/.ipynb_checkpoints/**
 test/**
 .ipynb_checkpoints/**
 cods/.ipynb_checkpoints/**
+test/**
+.ipynb_checkpoints/**
+*.zip
+*.gz
+test/**
+.ipynb_checkpoints/**
+*.zip
+*.gz
