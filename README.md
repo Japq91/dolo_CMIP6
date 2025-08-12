@@ -1,14 +1,14 @@
 # NEX-GDDP-CMIP6 — Descarga diaria a NetCDF (pipeline)
 `https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6`
-Este repositorio automatizó la **obtención de datos diarios** de modelos **CMIP6** (NEX‑GDDP‑CMIP6, NASA NCCS) vía **THREDDS**. El flujo produjo **NetCDF** recortados opcionalmente por caja espacial y guardados por **modelo** y **mes**.
+- Este repositorio automatizó la **obtención de datos diarios** de modelos **CMIP6** (NEX‑GDDP‑CMIP6, NASA NCCS) vía **THREDDS**. El flujo produjo **NetCDF** recortados opcionalmente por caja espacial y guardados por **modelo** y **mes**.
 
 ## Alcance
-- Se cubrieron únicamente **datos diarios** (e.g., `tas_day`, `pr_day`) en NetCDF.
-- Se trabajó con escenarios **históricos** y **SSP**.
+- Los datos en esta version son **datos diarios** (e.g., `tas_day`, `pr_day`) en NetCDF,las varaibles disponibles son: [hurs, huss, pr, rlds, rsds, sfcWind, tas, tasmax, tasmin]
+- Se trabajó con escenarios **históricos** y **SSP** [126,245,370,585] #(depende del modelo).
 - Se usó **NCSS** (NetCDF Subset Service) para subsetting espacial/temporal.
 
 ## Requisitos
-- Python 3.8+ (solo módulos estándar).
+- Python 3.7+.
 - `wget` en PATH.
 - Conectividad HTTPS a `ds.nccs.nasa.gov`.
 
@@ -129,5 +129,6 @@ python3 cods/p03_thredds_ncss.py enlaces/tas_TaiESM1_ssp126.txt --bbox -83 -30 -
 ---
 
 ## Créditos
+- Jonathan-APQ
 - NEX‑GDDP‑CMIP6 (NASA NCCS).  
 - THREDDS / NetCDF Subset Service (UCAR/Unidata).
