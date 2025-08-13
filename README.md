@@ -1,5 +1,6 @@
 # NEX-GDDP-CMIP6 — Descarga diaria a NetCDF (pipeline)
 `https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6`
+`https://ds.nccs.nasa.gov/thredds/catalog/AMES/NEX/GDDP-CMIP6/catalog.html`
 - Este repositorio automatizó la **obtención de datos diarios** de modelos **CMIP6** (NEX‑GDDP‑CMIP6, NASA NCCS) vía **THREDDS**. El flujo produjo **NetCDF** recortados opcionalmente por caja espacial y guardados por **modelo** y **mes**.
 
 ## Alcance
