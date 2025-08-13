@@ -1,7 +1,9 @@
 # NEX-GDDP-CMIP6 — Descarga diaria a NetCDF (pipeline)
-`https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6`
-`https://ds.nccs.nasa.gov/thredds/catalog/AMES/NEX/GDDP-CMIP6/catalog.html`
-- Este repositorio automatizó la **obtención de datos diarios** de modelos **CMIP6** (NEX‑GDDP‑CMIP6, NASA NCCS) vía **THREDDS**. El flujo produjo **NetCDF** recortados opcionalmente por caja espacial y guardados por **modelo** y **mes**.
+- `https://www.nccs.nasa.gov/services/data-collections/land-based-products/nex-gddp-cmip6`
+
+- `https://ds.nccs.nasa.gov/thredds/catalog/AMES/NEX/GDDP-CMIP6/catalog.html`
+
+Este repositorio automatizó la **obtención de datos diarios** de modelos **CMIP6** (NEX‑GDDP‑CMIP6, NASA NCCS) vía **THREDDS**. El flujo produjo **NetCDF** recortados opcionalmente por caja espacial y guardados por **modelo** y **mes**.
 
 ## Alcance
 - Los datos en esta version son **datos diarios** (e.g., `tas_day`, `pr_day`) en NetCDF,las varaibles disponibles son: [hurs, huss, pr, rlds, rsds, sfcWind, tas, tasmax, tasmin]
